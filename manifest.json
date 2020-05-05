@@ -1,0 +1,10 @@
+{
+  "name": "Medium block bypass",
+  "version": "0.1",
+  "description": "Bypasses ssl handshakes blocks for medium.com",
+  "background": {"scripts":["redirect.js"]},
+  "manifest_version": 2,
+  "permissions": [
+  "tabs",
+  "webNavigation"]
+}
